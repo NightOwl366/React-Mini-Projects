@@ -1,0 +1,18 @@
+# Ignore all node_modules folders recursively
+**/node_modules/
+
+# Ignore all build folders recursively
+**/build/
+
+# Ignore all .env files recursively
+**/.env
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+#Ignore any .gitignore files inside subfolders
+*/.gitignore
